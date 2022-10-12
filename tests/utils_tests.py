@@ -1,39 +1,16 @@
-import json
+import app
+import pytest
 
 
-def get_posts_all():
-    """Возвращает посты"""
-    with open("posts.json", mode='r', encoding='utf-8') as posts:
-        return json.load(posts)
+class TestAPI:
+    def test_api_all_post_type_json(self):
+        response = app.app.test_client().get("/api/posts", follw_redirects=True)
+        keys ={"poster_name", "poster_avatar", "pic", "content", "views_count", "likes_count", "pk"}
+        assert type(response.json) == list, "Получен не список"
+        assert set(response.json[0].keys()) == keys, "Ключи не совпадают"
 
-
-def get_posts_by_user(user_name):
-    """Возвращает посты определенного пользователя"""
-    try:
-        pass
-
-    except ValueError:
-
-        return 'Такого пользователя нет или у пользователя нет постов'
-    pass
-
-
-def get_comments_by_post_id(post_id):
-    """Возвращает комментарии определенного поста"""
-    try:
-        pass
-
-    except ValueError:
-
-        return 'Такого поста нет ил у поста нет комментов'
-    pass
-
-
-def search_for_posts(query):
-    """Возвращает список постов по ключевому слову"""
-    pass
-
-
-def get_post_by_pk(pk):
-    """Возвращает один пост по его идентификатору"""
-    pass
+    def test_api_single_post_type_json(self):
+        response = app.app.test_client().get("/api/posts/1", follw_redirects=True)
+        keys ={"poster_name", "poster_avatar", "pic", "content", "views_count", "likes_count", "pk"}
+        assert type(response.json) == dict, "Получен не список"
+        assert set(response.json[0].keys()) == keys, "Ключи не совпадают"

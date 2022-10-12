@@ -1,7 +1,10 @@
 from flask import Flask, render_template, request, jsonify
+import logging
 import utils
 
 app = Flask(__name__)
+
+logging.basicConfig(filename="basic.log", level=logging.INFO)
 
 
 @app.route("/")
@@ -11,10 +14,13 @@ def all_posts():
     return render_template('index.html', posts=posts)
 
 
-@app.route("/posts/<post_id>")
+@app.route("/posts/<int:post_id>")
 def post_by_id(post_id):
     """Подробный пост"""
-    post = utils.get_post_by_user(post_id)
+    try:
+        post = utils.get_post_by_pk(post_id)
+    except ValueError:
+        return "Такого поста нет или у пользователя нет постов"
     comment = utils.get_comments_by_post_id(post['pk'])
     comment_count = len(comment)
     return render_template('post.html', post=post, comment=comment, comment_count=comment_count)
@@ -32,7 +38,10 @@ def search_page():
 @app.route("/users/<user_name>")
 def post_by_user_name(user_name):
     """Вывод постов конкретного пользователя"""
-    posts = utils.get_posts_by_user(user_name)
+    try:
+        posts = utils.get_posts_by_user(user_name)
+    except ValueError:
+        return "Такого пользователя нет или у пользователя нет постов"
     name = posts[0]['poster_name']
     return render_template('user-feed.html', posts=posts, name=name)
 
@@ -41,6 +50,7 @@ def post_by_user_name(user_name):
 def all_posts_api():
     """Возвращает полный список постов в виде JSON-списка"""
     posts = utils.get_posts_all()
+    logging.info("Запрос /api/posts")
     return jsonify(posts)
 
 
@@ -48,8 +58,10 @@ def all_posts_api():
 def post_api(post_id):
     """Возвращает один пост в виде JSON-словаря"""
     post = utils.get_post_by_pk(post_id)
+    logging.info(f"Запрос /api/posts/{post_id}")
     print(post)
     return jsonify(post)
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()

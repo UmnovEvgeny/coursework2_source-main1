@@ -13,15 +13,22 @@ def get_comments_all():
         return json.load(posts)
 
 
-def get_post_by_user(user_name):
-    """Возвращает пост определенного пользователя"""
+# def get_post_by_user(user_name):
+#     """Возвращает пост определенного пользователя"""
+#     posts = get_posts_all()
+#     for user in posts:
+#         if user_name == user['poster_name']:
+#             return user
+#     raise ValueError
+
+
+def get_post_by_pk(pk):
+    """Возвращает один пост по его идентификатору"""
     posts = get_posts_all()
-    for user in posts:
-        if user_name == user['poster_name']:
-            return user
-    for user in posts:
-        if int(user_name) == user['pk']:
-            return user
+    for post in posts:
+        if pk == post['pk']:
+            return post
+    raise ValueError
 
 
 def get_comments_by_post_id(post_id):
@@ -42,14 +49,6 @@ def search_for_posts(query):
             return post
 
 
-def get_post_by_pk(pk):
-    """Возвращает один пост по его идентификатору"""
-    posts = get_posts_all()
-    for post in posts:
-        if pk == post['pk']:
-            return post
-
-
 def get_posts_by_word(word):
     result = []
     for post in get_posts_all():
@@ -65,7 +64,7 @@ def get_posts_by_user(user_name):
     for user in posts:
         if user_name == user['poster_name'] or user_name == user['pk']:
             result.append(user)
+    if not result:
+        raise ValueError
     return result
 
-
-# print(get_post_by_pk(1))
