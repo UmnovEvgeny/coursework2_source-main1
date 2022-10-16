@@ -109,3 +109,233 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2022 13:42:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2022 18:37:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:56:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:56:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:56:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:56:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:56:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:12] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:16] "GET /posts/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:18] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:18] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:18] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:57:18] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:30] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:44] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:47] "[32mGET /search?s=Рур HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:47] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:49] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:51] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:51] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:51] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:56] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:57] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:58:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:11] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:13] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:16] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:20] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:21] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:21] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:22] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:24] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:26] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:28] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 16:59:30] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:02] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:11] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:13] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:14] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:14] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:14] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:16] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:16] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:16] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:16] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:00:19] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:01:18] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:01:20] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:01:23] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:01:33] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:45] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:49] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:05:52] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:06:38] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:06:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:06:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:06:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:25:38] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:25:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:25:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:25:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:25:40] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:22] "[33mGET /posts/leo HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:28] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:33] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:37] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:26:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:06] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:07] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:07] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:07] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:07] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:12] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:12] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:12] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:14] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:32] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:32] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:32] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:27:33] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:11] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:15] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:27] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:28:28] "[33mGET /posts/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:29:31] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:29:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:29:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:29:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:20] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:20] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:20] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:22] "GET /search/?s=Рур HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:23] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Oct/2022 17:31:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
